@@ -1,128 +1,206 @@
-# <p align="center"><img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/bmw_logo.png" width="80" alt="baoma-inc logo" style="border-radius: 50%;"><br>baoma-inc</p>
+<div align="center">
 
-<p align="center">
-  <strong>分布式网络共享代理与闲置设备云端控制基础设施研发中心</strong>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=210&section=header&text=baoma-inc&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%E5%AE%9D%E9%A9%AC%E7%A0%94%E5%8F%91%E4%B8%AD%E5%BF%83%20%C2%B7%20%E5%88%86%E5%B8%83%E5%BC%8F%E8%BE%B9%E7%BC%98%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD&descAlignY=58&descSize=18" alt="baoma-inc banner" width="100%">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Kotlin-1.9+-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/Go-1.22+-00ADD8?logo=go&logoColor=white" alt="Go">
-  <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Next.js-15.0+-000000?logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/PostgreSQL-16%20%2F%2018-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Redis-7%20%2F%208-FF4438?logo=redis&logoColor=white" alt="Redis">
-  <img src="https://img.shields.io/badge/ClickHouse-26.3%20LTS-F38020?logo=clickhouse&logoColor=white" alt="ClickHouse">
-  <img src="https://img.shields.io/badge/Docker-Compatible-2496ED?logo=docker&logoColor=white" alt="Docker">
-</p>
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/bmw_logo.png" width="92" alt="baoma-inc logo">
+
+<br><br>
+
+<a href="https://github.com/baoma-inc">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=00E7FF&center=true&vCenter=true&width=640&height=48&lines=%E9%97%B2%E7%BD%AE%E8%AE%BE%E5%A4%87%E6%B1%A0%20%C2%B7%20%E4%BA%91%E7%AB%AF%E6%8E%A7%E5%88%B6%20%C2%B7%20%E8%BE%B9%E7%BC%98%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86;Kotlin%20%C3%97%20Go%20%C3%97%20TypeScript%20%E5%85%A8%E6%A0%88%E7%A0%94%E5%8F%91;%E5%8D%81%E4%B8%87%E7%BA%A7%E5%B9%B6%E5%8F%91%E9%9A%A7%E9%81%93%20%C2%B7%20%E5%88%86%E5%B8%83%E5%BC%8F%E8%BE%B9%E7%BC%98%E7%BD%91%E5%85%B3;%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E8%90%A5%20%C2%B7%20%E8%B4%A2%E5%8A%A1%E9%A3%8E%E6%8E%A7%E9%97%AD%E7%8E%AF" alt="typing intro">
+</a>
+
+<br>
+
+<!-- STATS:BADGES:START -->
+<img src="https://img.shields.io/badge/%E5%9B%A2%E9%98%9F%E6%88%90%E5%91%98-4-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="团队成员 4">
+<img src="https://img.shields.io/badge/%E4%BB%93%E5%BA%93-4-0969DA?style=for-the-badge&logo=git&logoColor=white" alt="仓库 4">
+<img src="https://img.shields.io/badge/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80-10-F38020?style=for-the-badge&logo=gitbook&logoColor=white" alt="编程语言 10">
+<img src="https://img.shields.io/badge/%E5%85%B3%E6%B3%A8%E8%80%85-2-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="关注者 2">
+<img src="https://img.shields.io/badge/%E5%88%9B%E7%AB%8B%E4%BA%8E-2026-2EA043?style=for-the-badge&logo=rocket&logoColor=white" alt="创立于 2026">
+<!-- STATS:BADGES:END -->
+
+<br>
+
+<img src="https://img.shields.io/badge/Kotlin-1.9+-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
+<img src="https://img.shields.io/badge/Go-1.22+-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+<img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Next.js-15+-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/PostgreSQL-16%2B-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Redis-7%2B-FF4438?style=flat-square&logo=redis&logoColor=white" alt="Redis">
+<img src="https://img.shields.io/badge/ClickHouse-LTS-F38020?style=flat-square&logo=clickhouse&logoColor=white" alt="ClickHouse">
+<img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/APISIX-Gateway-e8433e?style=flat-square&logo=apachedolphinscheduler&logoColor=white" alt="APISIX">
+<img src="https://img.shields.io/badge/Cloudflare-Edge-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare">
+
+</div>
 
 ---
 
-## 🌌 组织定位
+## 🌌 关于我们
 
-欢迎来到 **baoma-inc**（宝马研发中心）的私有开发者空间。我们专注于构建安全、高并发、分布式的边缘网络代理技术和企业级自动化运营系统。
+欢迎来到 **baoma-inc（宝马研发中心）** —— 一个专注于**分布式边缘网络与自动化运营基础设施**的工程团队。
 
-我们的核心业务围绕 **闲置 Android 设备池反向代理共享方案** 展开，并辅以高度自研的**企业内部财务审批与自动化监控系统**，实现资产最大化利用与合规性管控 of 闭环。
+我们的核心方向：
+
+- 🛰️ **闲置设备云端化**：让闲置 Android 设备变身为安全可控的边缘网络节点；
+- ⚡ **高并发隧道网关**：Go 语言打造的分布式反向隧道与就近调度体系，目标十万级在线连接；
+- 🤖 **自动化运营闭环**：TypeScript / Next.js 构建的企业级财务审批、对账与实时风控预警系统。
+
+> 从终端到网关，从数据到风控 —— 我们用代码把每一台闲置设备变成基础设施的一部分。
 
 ---
 
-## 🛠 核心技术版图
+## 🚀 核心项目
 
-我们目前主要维护三大相互协同的核心项目，分别覆盖**客户端**、**分布式后端**和**内部管理台**：
-
-| 项目 / 仓库 | 语言 & 技术栈 | 职责 & 定位 | 阶段与状态 |
+| 项目 | 技术栈 | 职责与定位 | 状态 |
 | :--- | :--- | :--- | :--- |
-| [**baomao_android**](https://github.com/baoma-inc/baomao_android) | `Kotlin`, `Gradle`, `XML Views`, `Foreground Service` | 终端网络共享客户端。设备启动前台常驻服务，通过 TLS/WSS 长连接反向接入网关，实现设备带宽的安全出站代理。 | `MVP 0A` (技术骨架验证与本地 mock 闭环) |
-| [**idlephone**](https://github.com/baoma-inc/idlephone) | `Go`, `GORM`, `Redis`, `ClickHouse`, `APISIX`, `Protobuf` | 分布式边缘代理后端。包含就近调度（node-svc）、隧道接入（tunnel-gateway x6）、代理入口（proxy-gateway）及管理员 RBAC（admin-api），支撑十万级在线隧道。 | `Active Development` (高并发隧道核心基线) |
-| [**expense-flow**](https://github.com/baoma-inc/expense-flow) | `TypeScript`, `Next.js`, `Drizzle ORM`, `Cloudflare Access/Tunnel/R2` | 企业内部报销与财务管理系统。集成员工报销审批、Amzkeys 虚拟卡管理、OKX 实时汇率对账及钉钉财务机器人多维度预警。 | `Production` (部署于 `bx.taichang.app`) |
+| 📱 [**baomao_android**](https://github.com/baoma-inc/baomao_android) | `Kotlin` `Gradle` `Foreground Service` | 终端网络共享客户端，通过 TLS/WSS 长连接反向接入网关，实现设备带宽的安全出站代理 | `MVP` 骨架验证 |
+| 🛰️ [**idlephone**](https://github.com/baoma-inc/idlephone) | `Go` `Redis` `ClickHouse` `APISIX` `Protobuf` | 分布式边缘代理后端：就近调度、隧道接入、代理入口与管理员 RBAC，支撑十万级在线隧道 | `Active` 高速迭代 |
+| 💳 [**expense-flow**](https://github.com/baoma-inc/expense-flow) | `TypeScript` `Next.js` `Drizzle` `Cloudflare` | 企业内部报销与财务管理系统：审批流、虚拟卡管理、实时汇率对账与钉钉机器人预警 | `Production` 生产运行 |
 
 ---
 
 ## 📐 系统全局架构
 
-各项目以 **`idlephone` (Go 平台后端)** 为中枢进行分布式路由协同，由 **`baomao_android` (Kotlin 客户端)** 提供边缘出口节点，并使用 **`expense-flow` (Next.js 服务端)** 提供整体运营财务保障与钉钉自动化安全风控。
+三大项目以 **idlephone（Go 后端）** 为中枢协同：**baomao_android** 提供边缘出口节点，**expense-flow** 保障运营财务与自动化风控。
 
 ```mermaid
 graph TD
-    %% Styling
     classDef client fill:#1f2d3d,stroke:#3b82f6,stroke-width:2px,color:#fff;
-    classDef edge fill:#111827,stroke:#10b981,stroke-width:2px,color:#fff;
     classDef backend fill:#1e1b4b,stroke:#8b5cf6,stroke-width:2px,color:#fff;
     classDef ops fill:#2d1a10,stroke:#f59e0b,stroke-width:2px,color:#fff;
     classDef db fill:#0c2340,stroke:#64748b,stroke-width:2px,color:#fff;
 
-    subgraph "终端与流量入口 (Client & Edge)"
-        Android["📱 Android 终端 (baomao_android)"]:::client
-        ProxyClient["👥 客户代理请求 (HTTP/SOCKS5)"]:::client
+    subgraph "终端与流量入口"
+        Android["📱 Android 终端<br>(baomao_android)"]:::client
+        ProxyClient["👥 客户代理请求<br>(HTTP / SOCKS5)"]:::client
     end
 
-    subgraph "分布式边缘控制网关 (idlephone Backend)"
-        APISIX["⚡ APISIX 流量入口 (20080)"]:::backend
-        ProxyGW["🔄 Proxy Gateway (20000-20002)"]:::backend
-        TunnelGW["📡 Tunnel Gateway x6 (20010-20015)"]:::backend
-        NodeSvc["⚙️ Node Service (20021)"]:::backend
-        UserSvc["🔑 User Service (20024)"]:::backend
-        DeviceSvc["🆔 Device Service (20025)"]:::backend
-        AdminApi["🛡️ Admin API (20040)"]:::backend
+    subgraph "分布式边缘控制网关 (idlephone)"
+        APISIX["⚡ APISIX 流量入口"]:::backend
+        ProxyGW["🔄 Proxy Gateway"]:::backend
+        TunnelGW["📡 Tunnel Gateway 集群"]:::backend
+        NodeSvc["⚙️ Node Service 就近调度"]:::backend
+        UserSvc["🔑 User Service 鉴权"]:::backend
+        DeviceSvc["🆔 Device Service"]:::backend
+        AdminApi["🛡️ Admin API (RBAC)"]:::backend
     end
 
-    subgraph "数据存储与计算层 (Storage & Analytics)"
-        PG[("🐘 PostgreSQL (系统数据/RBAC)")]:::db
-        Redis[("⚡ Redis (路由/状态缓存)")]:::db
-        CH[("📊 ClickHouse (流量审计/事件分析)")]:::db
+    subgraph "数据存储与计算层"
+        PG[("🐘 PostgreSQL<br>系统数据 / RBAC")]:::db
+        Redis[("⚡ Redis<br>路由 / 状态缓存")]:::db
+        CH[("📊 ClickHouse<br>流量审计 / 事件分析")]:::db
     end
 
-    subgraph "企业财务与监控运营 (Internal Ops)"
-        ExpenseFlow["💳 报销与卡片管理 (expense-flow)"]:::ops
+    subgraph "企业财务与监控运营"
+        ExpenseFlow["💳 报销与卡片管理<br>(expense-flow)"]:::ops
         DingTalk["🤖 钉钉财务预警机器人"]:::ops
     end
 
-    %% 核心数据流与控制流
     Android -->|WSS 反向隧道| TunnelGW
-    ProxyClient -->|HTTP/HTTPS/SOCKS5| ProxyGW
+    ProxyClient -->|HTTP / HTTPS / SOCKS5| ProxyGW
     ProxyGW -->|边缘内网桥接| TunnelGW
-    TunnelGW -->|网络字节双向转发| Android
-    
+    TunnelGW -->|字节流双向转发| Android
+
     NodeSvc -->|就近选路与分配凭证| DeviceSvc
     UserSvc -->|用户鉴权校验| ProxyGW
     AdminApi -->|配置管理与审计日志| PG
-    
-    %% 数据库交互
+
     NodeSvc & DeviceSvc & UserSvc & AdminApi & ExpenseFlow -->|强一致事务| PG
     ProxyGW & TunnelGW & ExpenseFlow -->|高速状态读写| Redis
-    ProxyGW -->|流量包计量分析| CH
+    ProxyGW -->|流量计量分析| CH
 
-    %% 财务及机器人
-    ExpenseFlow -->|Amzkeys 扣款/自动认领| PG
-    ExpenseFlow -->|大额/越权/中断告警| DingTalk
+    ExpenseFlow -->|扣款 / 自动认领| PG
+    ExpenseFlow -->|大额 / 越权 / 中断告警| DingTalk
 ```
 
 ---
 
-## 🔒 研发安全与规范
+## 🧬 语言基因图谱
 
-由于本组织的所有项目均服务于私有商业基础设施及公司内部财务流，请所有研发成员严格遵守以下安全基线：
+> 基于组织内全部仓库的真实代码字节数统计，每日自动刷新。
 
-1. **凭证隔离**：
-   - 严禁将任何明文密码、API Keys（如 OKX API、Amzkeys 密钥、R2 Credentials） or 敏感的 Access 凭证硬编码提交至仓库。
-   - 本地开发统一从 `.env.example` 复制并维护个人本地 `.env`。
-2. **分支流水线**：
-   - `main` 和 `production` 分支受到强保护，严禁强推（`force push`）。
-   - 所有变更必须经过 Pull Request，且需通过对应的 CI 门禁（Linting、Typecheck、单元测试、Playwright E2E/Go race test）。
-3. **部署准则**：
-   - 生产环境统一监听在本地 Loopback（`127.0.0.1`），由宿主机防火墙阻断外部直连，一切流量经由 APISIX / Cloudflare Tunnel 安全接入。
-
----
-
-## 📖 快速上手通道
-
-如果您是新加入的团队成员，请按照以下路径配置您的本地开发机：
-
-- **Android 客户端开发**：克隆 [baomao_android](https://github.com/baoma-inc/baomao_android)，使用 Android Studio 打开，选择 `mockDebug` 变体进行一键运行与 Mock 测试。
-- **分布式后端开发**：克隆 [idlephone](https://github.com/baoma-inc/idlephone)，确保本地安装了 Docker，使用 `./deploy.sh` 快速拉起本地基础依赖（PostgreSQL/Redis/ClickHouse），并通过 Go 命令行调测服务。
-- **财务与运营工具开发**：克隆 [expense-flow](https://github.com/baoma-inc/expense-flow)，使用 `pnpm install` 安装依赖，配置本地 `.env` 或执行 `pnpm dev:local` 使用内嵌式 PGlite 极速启动开发环境。
+<!-- LANGS:START -->
+```text
+Kotlin      ████████████░░░░░░░░░░░░░░░░  42.3%  1.7 MB
+TypeScript  ███████████░░░░░░░░░░░░░░░░░  40.9%  1.6 MB
+Go          ████░░░░░░░░░░░░░░░░░░░░░░░░  15.0%  601.0 KB
+Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.1%  42.9 KB
+PLpgSQL     █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.6%  22.4 KB
+Dockerfile  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.1%  2.9 KB
+CSS         █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%  1.4 KB
+Makefile    █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%  1014 B
+Other       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%  1.2 KB
+```
+<!-- LANGS:END -->
 
 ---
 
-<p align="center">
-  🔒 <strong>BAOMA-INC Confidential - Internal Use Only</strong>
+## 🏆 贡献者排行榜
+
+> 汇总组织所有仓库的提交贡献（已过滤机器人），每日自动刷新。
+
+<div align="center">
+
+<!-- LEADERBOARD:START -->
+<table>
+  <tr align="center"><th>排名</th><th>贡献者</th><th>Commits</th><th>火力值</th><th>占比</th></tr>
+  <tr align="center"><td><b>🥇</b></td><td><a href="https://github.com/Birditch"><img src="https://github.com/Birditch.png" width="42" alt="Birditch"><br><b>Birditch</b></a></td><td><b>71</b></td><td><code>██████████████</code></td><td>54.2%</td></tr>
+  <tr align="center"><td><b>🥈</b></td><td><a href="https://github.com/backspace135"><img src="https://github.com/backspace135.png" width="42" alt="backspace135"><br><b>backspace135</b></a></td><td><b>51</b></td><td><code>██████████░░░░</code></td><td>38.9%</td></tr>
+  <tr align="center"><td><b>🥉</b></td><td><a href="https://github.com/Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="42" alt="Night-stars-1"><br><b>Night-stars-1</b></a></td><td><b>8</b></td><td><code>██░░░░░░░░░░░░</code></td><td>6.1%</td></tr>
+  <tr align="center"><td><b>#4</b></td><td><a href="https://github.com/yuhang-jieke"><img src="https://github.com/yuhang-jieke.png" width="42" alt="yuhang-jieke"><br><b>yuhang-jieke</b></a></td><td><b>1</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>0.8%</td></tr>
+</table>
+<!-- LEADERBOARD:END -->
+
+</div>
+
+---
+
+## 👥 团队成员
+
+<div align="center">
+
+<!-- MEMBERS:START -->
+<p>
+  <a href="https://github.com/backspace135" title="backspace135"><img src="https://github.com/backspace135.png" width="72" alt="backspace135"></a>
+  <a href="https://github.com/Birditch" title="Birditch"><img src="https://github.com/Birditch.png" width="72" alt="Birditch"></a>
+  <a href="https://github.com/Night-stars-1" title="Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="72" alt="Night-stars-1"></a>
+  <a href="https://github.com/yun12370" title="yun12370"><img src="https://github.com/yun12370.png" width="72" alt="yun12370"></a>
 </p>
+<b>4</b> 位工程师 · 一台闲置设备都不放过
+<!-- MEMBERS:END -->
+
+</div>
+
+---
+
+## 🐍 代码贡献动态
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/baoma-inc/.github/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/baoma-inc/.github/output/github-snake.svg">
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/baoma-inc/.github/output/github-snake.svg" width="100%">
+</picture>
+
+</div>
+
+---
+
+## 🔒 安全与合规
+
+- 🔐 所有仓库禁止提交任何明文凭证，敏感配置一律走环境变量与密钥管理；
+- 🛡️ `main` / `production` 分支受保护，所有变更经 Pull Request + CI 门禁（Lint / Typecheck / 单测 / E2E / race test）合入；
+- 🌐 生产服务默认仅监听本地回环，流量统一经网关安全接入。
+
+---
+
+<div align="center">
+
+**⭐ 用代码把每一台闲置设备变成基础设施 ⭐**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" alt="footer" width="100%">
+
+</div>

@@ -1,0 +1,40 @@
+name: 📊 Update Org Stats
+
+on:
+  schedule:
+    - cron: "20 16 * * *" # 北京时间每天 0:20
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 刷新组织统计数据
+        run: node scripts/update-stats.mjs
+        env:
+          # 默认 GITHUB_TOKEN 看不到组织成员与私有仓库，脚本会自动跳过刷新。
+          # 在组织/仓库 Secrets 配置 ORG_STATS_TOKEN（read:org + repo 只读 PAT）后即可全量每日刷新。
+          GH_TOKEN: ${{ secrets.ORG_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          ORG: baoma-inc
+
+      - name: 提交变更
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore: 自动刷新组织统计数据"
+            git push
+          fi
