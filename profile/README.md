@@ -13,25 +13,25 @@
 <br>
 
 <!-- STATS:BADGES:START -->
-<img src="https://img.shields.io/badge/%E5%9B%A2%E9%98%9F%E6%88%90%E5%91%98-4-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="团队成员 4">
-<img src="https://img.shields.io/badge/%E4%BB%93%E5%BA%93-4-0969DA?style=for-the-badge&logo=git&logoColor=white" alt="仓库 4">
-<img src="https://img.shields.io/badge/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80-10-F38020?style=for-the-badge&logo=gitbook&logoColor=white" alt="编程语言 10">
-<img src="https://img.shields.io/badge/%E5%85%B3%E6%B3%A8%E8%80%85-2-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="关注者 2">
-<img src="https://img.shields.io/badge/%E5%88%9B%E7%AB%8B%E4%BA%8E-2026-2EA043?style=for-the-badge&logo=rocket&logoColor=white" alt="创立于 2026">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/members.svg" alt="团队成员 4" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/repos.svg" alt="仓库 4" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/languages.svg" alt="编程语言 10" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/followers.svg" alt="关注者 2" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/since.svg" alt="创立于 2026" height="28">
 <!-- STATS:BADGES:END -->
 
 <br>
 
-<img src="https://img.shields.io/badge/Kotlin-1.9+-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
-<img src="https://img.shields.io/badge/Go-1.22+-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
-<img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/Next.js-15+-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
-<img src="https://img.shields.io/badge/PostgreSQL-16%2B-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-<img src="https://img.shields.io/badge/Redis-7%2B-FF4438?style=flat-square&logo=redis&logoColor=white" alt="Redis">
-<img src="https://img.shields.io/badge/ClickHouse-LTS-F38020?style=flat-square&logo=clickhouse&logoColor=white" alt="ClickHouse">
-<img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-<img src="https://img.shields.io/badge/APISIX-Gateway-e8433e?style=flat-square&logo=apachedolphinscheduler&logoColor=white" alt="APISIX">
-<img src="https://img.shields.io/badge/Cloudflare-Edge-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/kotlin.svg" alt="Kotlin" height="20">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/go.svg" alt="Go" height="20">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/typescript.svg" alt="TypeScript" height="20">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/nextjs.svg" alt="Next.js" height="20">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/postgresql.svg" alt="PostgreSQL" height="20">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/redis.svg" alt="Redis" height="20">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/clickhouse.svg" alt="ClickHouse" height="20">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/docker.svg" alt="Docker" height="20">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/apisix.svg" alt="APISIX" height="20">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/cloudflare.svg" alt="Cloudflare" height="20">
 
 </div>
 
@@ -124,14 +124,14 @@ graph TD
 <!-- LANGS:START -->
 ```text
 Kotlin      ████████████░░░░░░░░░░░░░░░░  42.3%  1.7 MB
-TypeScript  ███████████░░░░░░░░░░░░░░░░░  40.9%  1.6 MB
+TypeScript  ███████████░░░░░░░░░░░░░░░░░  40.8%  1.6 MB
 Go          ████░░░░░░░░░░░░░░░░░░░░░░░░  15.0%  601.0 KB
 Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.1%  42.9 KB
 PLpgSQL     █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.6%  22.4 KB
+JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  6.3 KB
 Dockerfile  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.1%  2.9 KB
 CSS         █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%  1.4 KB
-Makefile    █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%  1014 B
-Other       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%  1.2 KB
+Other       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%  1.3 KB
 ```
 <!-- LANGS:END -->
 

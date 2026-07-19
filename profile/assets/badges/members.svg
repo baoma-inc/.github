@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="28" role="img" aria-label="团队成员: 4">
+<clipPath id="r"><rect width="105" height="28" rx="4"/></clipPath>
+<g clip-path="url(#r)">
+<rect width="74" height="28" fill="#30363d"/>
+<rect x="74" width="31" height="28" fill="#8A2BE2"/>
+</g>
+<g fill="#ffffff" text-anchor="middle" font-family="-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif" font-weight="600" font-size="12">
+<text x="37" y="18.5">团队成员</text>
+<text x="89.5" y="18.5">4</text>
+</g>
+</svg>

@@ -1,14 +1,65 @@
 #!/usr/bin/env node
-// 自动刷新 profile/README.md 标记区块内的组织统计数据：
-// 徽章(成员/仓库/语言/关注者)、语言基因图谱、贡献者排行榜、成员头像墙。
-// 令牌权限不足以看到组织成员与私有仓库时直接跳过，避免用残缺数据覆盖完整数据。
-import { readFileSync, writeFileSync } from 'node:fs'
+// 自动刷新 profile/README.md 标记区块内的组织统计数据，并生成自托管 SVG 徽章。
+// 徽章不用 shields.io（其对 GitHub camo 代理限流，页面上会随机裂图），
+// 而是直接生成 SVG 存入 profile/assets/badges/，走 raw.githubusercontent.com 稳定渲染。
+// 令牌权限不足以看到组织成员与私有仓库时跳过统计刷新，避免用残缺数据覆盖完整数据；
+// 但徽章文件仍会按需生成（技术栈徽章为静态内容）。
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const TOKEN = process.env.GH_TOKEN
 const ORG = process.env.ORG || 'baoma-inc'
 const README = fileURLToPath(new URL('../profile/README.md', import.meta.url))
+const BADGE_DIR = fileURLToPath(new URL('../profile/assets/badges', import.meta.url))
+const RAW_BASE = `https://raw.githubusercontent.com/${ORG}/.github/main/profile/assets/badges`
 
+// ---------- SVG 徽章生成 ----------
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+// 近似文本宽度：CJK 按全宽、ASCII 按半宽估算（加粗系统字体）
+const textWidth = (s, fontSize) =>
+  [...String(s)].reduce((n, ch) => n + (ch.charCodeAt(0) > 0x2e80 ? fontSize * 1.05 : fontSize * 0.62), 0)
+
+function badgeSVG({ label, value, color, big = false }) {
+  const fs = big ? 12 : 11
+  const h = big ? 28 : 20
+  const pad = big ? 12 : 8
+  const lw = Math.round(textWidth(label, fs) + pad * 2)
+  const vw = Math.round(textWidth(value, fs) + pad * 2)
+  const w = lw + vw
+  const ty = big ? 18.5 : 14
+  const font = `-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif`
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" role="img" aria-label="${esc(label)}: ${esc(value)}">
+<clipPath id="r"><rect width="${w}" height="${h}" rx="4"/></clipPath>
+<g clip-path="url(#r)">
+<rect width="${lw}" height="${h}" fill="#30363d"/>
+<rect x="${lw}" width="${vw}" height="${h}" fill="${color}"/>
+</g>
+<g fill="#ffffff" text-anchor="middle" font-family="${font}" font-weight="600" font-size="${fs}">
+<text x="${lw / 2}" y="${ty}">${esc(label)}</text>
+<text x="${lw + vw / 2}" y="${ty}">${esc(value)}</text>
+</g>
+</svg>`
+}
+
+mkdirSync(BADGE_DIR, { recursive: true })
+const writeBadge = (file, opts) => writeFileSync(`${BADGE_DIR}/${file}.svg`, badgeSVG(opts))
+
+// 技术栈徽章（静态，幂等生成）
+const TECH = [
+  ['kotlin', 'Kotlin', '1.9+', '#7F52FF'],
+  ['go', 'Go', '1.22+', '#00ADD8'],
+  ['typescript', 'TypeScript', '5.0+', '#3178C6'],
+  ['nextjs', 'Next.js', '15+', '#111111'],
+  ['postgresql', 'PostgreSQL', '16+', '#4169E1'],
+  ['redis', 'Redis', '7+', '#FF4438'],
+  ['clickhouse', 'ClickHouse', 'LTS', '#F5B800'],
+  ['docker', 'Docker', 'Ready', '#2496ED'],
+  ['apisix', 'APISIX', 'Gateway', '#e8433e'],
+  ['cloudflare', 'Cloudflare', 'Edge', '#F38020'],
+]
+for (const [file, label, value, color] of TECH) writeBadge(file, { label, value, color })
+
+// ---------- 拉取组织数据 ----------
 async function api(path) {
   const res = await fetch(`https://api.github.com${path}`, {
     headers: {
@@ -31,7 +82,7 @@ const [orgInfo, members, repos] = await Promise.all([
 ])
 
 if (!members?.length || !repos || repos.length < 2) {
-  console.log('令牌看不到组织成员或私有仓库，跳过刷新（README 保持现有数据）')
+  console.log('令牌看不到组织成员或私有仓库，跳过统计刷新（README 保持现有数据，技术栈徽章已生成）')
   process.exit(0)
 }
 
@@ -51,18 +102,20 @@ for (const repo of repos) {
   }
 }
 
-// ---------- 渲染 ----------
-const badge = (label, msg, color, logo) =>
-  `<img src="https://img.shields.io/badge/${encodeURIComponent(label)}-${encodeURIComponent(String(msg))}-${color}?style=for-the-badge&logo=${logo}&logoColor=white" alt="${label} ${msg}">`
+// ---------- 统计徽章（动态生成 SVG） ----------
+const STATS = [
+  ['members', '团队成员', String(members.length), '#8A2BE2'],
+  ['repos', '仓库', String(repos.length), '#0969DA'],
+  ['languages', '编程语言', String(langBytes.size), '#F38020'],
+  ['followers', '关注者', String(orgInfo?.followers ?? 0), '#EA4AAA'],
+  ['since', '创立于', '2026', '#2EA043'],
+]
+for (const [file, label, value, color] of STATS) writeBadge(file, { label, value, color, big: true })
+const badgesBlock = STATS.map(
+  ([file, label, value]) => `<img src="${RAW_BASE}/${file}.svg" alt="${label} ${value}" height="28">`
+).join('\n')
 
-const badges = [
-  badge('团队成员', members.length, '8A2BE2', 'github'),
-  badge('仓库', repos.length, '0969DA', 'git'),
-  badge('编程语言', langBytes.size, 'F38020', 'gitbook'),
-  badge('关注者', orgInfo?.followers ?? 0, 'EA4AAA', 'githubsponsors'),
-  badge('创立于', '2026', '2EA043', 'rocket'),
-].join('\n')
-
+// ---------- 语言基因图谱 ----------
 const fmtBytes = (n) =>
   n >= 1 << 20 ? `${(n / (1 << 20)).toFixed(1)} MB` : n >= 1024 ? `${(n / 1024).toFixed(1)} KB` : `${n} B`
 
@@ -82,6 +135,7 @@ const langLines = topLangs.map(([lang, bytes]) => {
 })
 const langsBlock = '```text\n' + langLines.join('\n') + '\n```'
 
+// ---------- 贡献者排行榜 ----------
 const board = [...contributors.entries()].sort((a, b) => b[1] - a[1])
 const commitTotal = board.reduce((s, [, n]) => s + n, 0)
 const maxCommits = board[0]?.[1] ?? 1
@@ -99,6 +153,7 @@ const leaderboardBlock = `<table>
 ${leaderboardRows}
 </table>`
 
+// ---------- 成员头像墙 ----------
 const memberCells = members
   .map(
     (m) =>
@@ -107,7 +162,7 @@ const memberCells = members
   .join('\n')
 const membersBlock = `<p>\n${memberCells}\n</p>\n<b>${members.length}</b> 位工程师 · 一台闲置设备都不放过`
 
-// ---------- 注入 ----------
+// ---------- 注入 README ----------
 let md = readFileSync(README, 'utf8')
 let failed = false
 const inject = (name, content) => {
@@ -122,7 +177,7 @@ const inject = (name, content) => {
   md = md.replace(re, `${start}\n${content}\n${end}`)
 }
 
-inject('STATS:BADGES', badges)
+inject('STATS:BADGES', badgesBlock)
 inject('LANGS', langsBlock)
 inject('LEADERBOARD', leaderboardBlock)
 inject('MEMBERS', membersBlock)
