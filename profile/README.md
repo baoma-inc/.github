@@ -13,10 +13,10 @@
 <br>
 
 <!-- STATS:BADGES:START -->
-<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/members.svg" alt="团队成员 4" height="28">
-<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/repos.svg" alt="仓库 4" height="28">
-<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/languages.svg" alt="编程语言 10" height="28">
-<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/followers.svg" alt="关注者 2" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/members.svg" alt="团队成员 6" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/repos.svg" alt="仓库 6" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/languages.svg" alt="编程语言 12" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/followers.svg" alt="关注者 3" height="28">
 <img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/since.svg" alt="创立于 2026" height="28">
 <!-- STATS:BADGES:END -->
 
@@ -134,15 +134,15 @@ graph TD
 
 <!-- LANGS:START -->
 ```text
-Kotlin      ████████████░░░░░░░░░░░░░░░░  42.3%  1.7 MB
-TypeScript  ███████████░░░░░░░░░░░░░░░░░  40.8%  1.6 MB
-Go          ████░░░░░░░░░░░░░░░░░░░░░░░░  15.0%  601.0 KB
-Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.1%  42.9 KB
-PLpgSQL     █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.6%  22.4 KB
-JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  6.3 KB
-Dockerfile  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.1%  2.9 KB
-CSS         █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%  1.4 KB
-Other       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%  1.3 KB
+Kotlin      ███████████░░░░░░░░░░░░░░░░░  40.6%  3.1 MB
+TypeScript  ██████████░░░░░░░░░░░░░░░░░░  36.6%  2.8 MB
+Go          ██████░░░░░░░░░░░░░░░░░░░░░░  20.4%  1.5 MB
+Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.1%  86.5 KB
+Rust        █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.6%  45.1 KB
+PLpgSQL     █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.3%  22.4 KB
+JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  13.8 KB
+Dockerfile  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.1%  8.3 KB
+Other       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  13.3 KB
 ```
 <!-- LANGS:END -->
 
@@ -157,10 +157,12 @@ Other       █░░░░░░░░░░░░░░░░░░░░░�
 <!-- LEADERBOARD:START -->
 <table>
   <tr align="center"><th>排名</th><th>贡献者</th><th>Commits</th><th>火力值</th><th>占比</th></tr>
-  <tr align="center"><td><b>🥇</b></td><td><a href="https://github.com/Birditch"><img src="https://github.com/Birditch.png" width="42" alt="Birditch"><br><b>Birditch</b></a></td><td><b>71</b></td><td><code>██████████████</code></td><td>54.2%</td></tr>
-  <tr align="center"><td><b>🥈</b></td><td><a href="https://github.com/backspace135"><img src="https://github.com/backspace135.png" width="42" alt="backspace135"><br><b>backspace135</b></a></td><td><b>51</b></td><td><code>██████████░░░░</code></td><td>38.9%</td></tr>
-  <tr align="center"><td><b>🥉</b></td><td><a href="https://github.com/Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="42" alt="Night-stars-1"><br><b>Night-stars-1</b></a></td><td><b>8</b></td><td><code>██░░░░░░░░░░░░</code></td><td>6.1%</td></tr>
-  <tr align="center"><td><b>#4</b></td><td><a href="https://github.com/yuhang-jieke"><img src="https://github.com/yuhang-jieke.png" width="42" alt="yuhang-jieke"><br><b>yuhang-jieke</b></a></td><td><b>1</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>0.8%</td></tr>
+  <tr align="center"><td><b>🥇</b></td><td><a href="https://github.com/backspace135"><img src="https://github.com/backspace135.png" width="42" alt="backspace135"><br><b>backspace135</b></a></td><td><b>107</b></td><td><code>██████████████</code></td><td>47.8%</td></tr>
+  <tr align="center"><td><b>🥈</b></td><td><a href="https://github.com/Birditch"><img src="https://github.com/Birditch.png" width="42" alt="Birditch"><br><b>Birditch</b></a></td><td><b>89</b></td><td><code>████████████░░</code></td><td>39.7%</td></tr>
+  <tr align="center"><td><b>🥉</b></td><td><a href="https://github.com/Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="42" alt="Night-stars-1"><br><b>Night-stars-1</b></a></td><td><b>16</b></td><td><code>██░░░░░░░░░░░░</code></td><td>7.1%</td></tr>
+  <tr align="center"><td><b>#4</b></td><td><a href="https://github.com/yuda-bai"><img src="https://github.com/yuda-bai.png" width="42" alt="yuda-bai"><br><b>yuda-bai</b></a></td><td><b>8</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>3.6%</td></tr>
+  <tr align="center"><td><b>#5</b></td><td><a href="https://github.com/yun12370"><img src="https://github.com/yun12370.png" width="42" alt="yun12370"><br><b>yun12370</b></a></td><td><b>3</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>1.3%</td></tr>
+  <tr align="center"><td><b>#6</b></td><td><a href="https://github.com/yuhang-jieke"><img src="https://github.com/yuhang-jieke.png" width="42" alt="yuhang-jieke"><br><b>yuhang-jieke</b></a></td><td><b>1</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>0.4%</td></tr>
 </table>
 <!-- LEADERBOARD:END -->
 
@@ -176,10 +178,12 @@ Other       █░░░░░░░░░░░░░░░░░░░░░�
 <p>
   <a href="https://github.com/backspace135" title="backspace135"><img src="https://github.com/backspace135.png" width="72" alt="backspace135"></a>
   <a href="https://github.com/Birditch" title="Birditch"><img src="https://github.com/Birditch.png" width="72" alt="Birditch"></a>
+  <a href="https://github.com/lvyitian" title="lvyitian"><img src="https://github.com/lvyitian.png" width="72" alt="lvyitian"></a>
   <a href="https://github.com/Night-stars-1" title="Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="72" alt="Night-stars-1"></a>
+  <a href="https://github.com/yuda-bai" title="yuda-bai"><img src="https://github.com/yuda-bai.png" width="72" alt="yuda-bai"></a>
   <a href="https://github.com/yun12370" title="yun12370"><img src="https://github.com/yun12370.png" width="72" alt="yun12370"></a>
 </p>
-<b>4</b> 位工程师 · 一台闲置设备都不放过
+<b>6</b> 位工程师 · 一台闲置设备都不放过
 <!-- MEMBERS:END -->
 
 </div>
