@@ -14,6 +14,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 统计需要读取组织私有仓库，推送需要绕过默认分支的 PR 规则。
+          token: ${{ secrets.ORG_STATS_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -22,9 +25,7 @@ jobs:
       - name: 刷新组织统计数据
         run: node scripts/update-stats.mjs
         env:
-          # 默认 GITHUB_TOKEN 看不到组织成员与私有仓库，脚本会自动跳过刷新。
-          # 在组织/仓库 Secrets 配置 ORG_STATS_TOKEN（read:org + repo 只读 PAT）后即可全量每日刷新。
-          GH_TOKEN: ${{ secrets.ORG_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.ORG_STATS_TOKEN }}
           ORG: baoma-inc
 
       - name: 提交变更

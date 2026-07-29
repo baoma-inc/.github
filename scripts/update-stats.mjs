@@ -2,8 +2,8 @@
 // 自动刷新 profile/README.md 标记区块内的组织统计数据，并生成自托管 SVG 徽章。
 // 徽章不用 shields.io（其对 GitHub camo 代理限流，页面上会随机裂图），
 // 而是直接生成 SVG 存入 profile/assets/badges/，走 raw.githubusercontent.com 稳定渲染。
-// 令牌权限不足以看到组织成员与私有仓库时跳过统计刷新，避免用残缺数据覆盖完整数据；
-// 但徽章文件仍会按需生成（技术栈徽章为静态内容）。
+// 令牌权限不足以看到组织成员与私有仓库时终止刷新，避免绿色任务掩盖配置错误，
+// 也避免用残缺数据覆盖完整数据。
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
@@ -82,8 +82,8 @@ const [orgInfo, members, repos] = await Promise.all([
 ])
 
 if (!members?.length || !repos || repos.length < 2) {
-  console.log('令牌看不到组织成员或私有仓库，跳过统计刷新（README 保持现有数据，技术栈徽章已生成）')
-  process.exit(0)
+  console.error('令牌看不到组织成员或私有仓库，终止统计刷新以避免覆盖完整数据')
+  process.exit(1)
 }
 
 const contributors = new Map()
