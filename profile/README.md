@@ -15,7 +15,7 @@
 <!-- STATS:BADGES:START -->
 <img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/members.svg" alt="团队成员 6" height="28">
 <img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/repos.svg" alt="仓库 6" height="28">
-<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/languages.svg" alt="编程语言 12" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/languages.svg" alt="编程语言 13" height="28">
 <img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/followers.svg" alt="关注者 3" height="28">
 <img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/since.svg" alt="创立于 2026" height="28">
 <!-- STATS:BADGES:END -->
@@ -134,15 +134,15 @@ graph TD
 
 <!-- LANGS:START -->
 ```text
-TypeScript  ███████████░░░░░░░░░░░░░░░░░  41.0%  3.5 MB
-Kotlin      ██████████░░░░░░░░░░░░░░░░░░  37.3%  3.2 MB
-Go          ██████░░░░░░░░░░░░░░░░░░░░░░  19.9%  1.7 MB
-Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.6%  54.2 KB
+TypeScript  ████████████░░░░░░░░░░░░░░░░  41.1%  3.7 MB
+Kotlin      ██████████░░░░░░░░░░░░░░░░░░  37.3%  3.4 MB
+Go          █████░░░░░░░░░░░░░░░░░░░░░░░  19.2%  1.7 MB
+Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.3%  117.4 KB
 Rust        █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.5%  45.1 KB
-PLpgSQL     █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.3%  22.4 KB
+PLpgSQL     █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  22.4 KB
 JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  14.8 KB
-Dockerfile  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.1%  8.4 KB
-Other       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  13.4 KB
+Dockerfile  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.1%  8.5 KB
+Other       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  19.2 KB
 ```
 <!-- LANGS:END -->
 
@@ -157,11 +157,11 @@ Other       █░░░░░░░░░░░░░░░░░░░░░�
 <!-- LEADERBOARD:START -->
 <table>
   <tr align="center"><th>排名</th><th>贡献者</th><th>Commits</th><th>火力值</th><th>占比</th></tr>
-  <tr align="center"><td><b>🥇</b></td><td><a href="https://github.com/backspace135"><img src="https://github.com/backspace135.png" width="42" alt="backspace135"><br><b>backspace135</b></a></td><td><b>167</b></td><td><code>██████████████</code></td><td>52.0%</td></tr>
-  <tr align="center"><td><b>🥈</b></td><td><a href="https://github.com/Birditch"><img src="https://github.com/Birditch.png" width="42" alt="Birditch"><br><b>Birditch</b></a></td><td><b>114</b></td><td><code>██████████░░░░</code></td><td>35.5%</td></tr>
-  <tr align="center"><td><b>🥉</b></td><td><a href="https://github.com/Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="42" alt="Night-stars-1"><br><b>Night-stars-1</b></a></td><td><b>25</b></td><td><code>██░░░░░░░░░░░░</code></td><td>7.8%</td></tr>
-  <tr align="center"><td><b>#4</b></td><td><a href="https://github.com/yuda-bai"><img src="https://github.com/yuda-bai.png" width="42" alt="yuda-bai"><br><b>yuda-bai</b></a></td><td><b>10</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>3.1%</td></tr>
-  <tr align="center"><td><b>#5</b></td><td><a href="https://github.com/yun12370"><img src="https://github.com/yun12370.png" width="42" alt="yun12370"><br><b>yun12370</b></a></td><td><b>4</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>1.2%</td></tr>
+  <tr align="center"><td><b>🥇</b></td><td><a href="https://github.com/backspace135"><img src="https://github.com/backspace135.png" width="42" alt="backspace135"><br><b>backspace135</b></a></td><td><b>216</b></td><td><code>██████████████</code></td><td>57.9%</td></tr>
+  <tr align="center"><td><b>🥈</b></td><td><a href="https://github.com/Birditch"><img src="https://github.com/Birditch.png" width="42" alt="Birditch"><br><b>Birditch</b></a></td><td><b>116</b></td><td><code>████████░░░░░░</code></td><td>31.1%</td></tr>
+  <tr align="center"><td><b>🥉</b></td><td><a href="https://github.com/Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="42" alt="Night-stars-1"><br><b>Night-stars-1</b></a></td><td><b>25</b></td><td><code>██░░░░░░░░░░░░</code></td><td>6.7%</td></tr>
+  <tr align="center"><td><b>#4</b></td><td><a href="https://github.com/yuda-bai"><img src="https://github.com/yuda-bai.png" width="42" alt="yuda-bai"><br><b>yuda-bai</b></a></td><td><b>10</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>2.7%</td></tr>
+  <tr align="center"><td><b>#5</b></td><td><a href="https://github.com/yun12370"><img src="https://github.com/yun12370.png" width="42" alt="yun12370"><br><b>yun12370</b></a></td><td><b>5</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>1.3%</td></tr>
   <tr align="center"><td><b>#6</b></td><td><a href="https://github.com/yuhang-jieke"><img src="https://github.com/yuhang-jieke.png" width="42" alt="yuhang-jieke"><br><b>yuhang-jieke</b></a></td><td><b>1</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>0.3%</td></tr>
 </table>
 <!-- LEADERBOARD:END -->
