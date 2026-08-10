@@ -56,7 +56,7 @@
 
 | 项目 | 技术栈 | 职责与定位 | 状态 |
 | :--- | :--- | :--- | :--- |
-| 📱 [**baomao_android**](https://github.com/baoma-inc/baomao_android) | `Kotlin` `Gradle` `Foreground Service` | 用户授权的 Android 边缘节点客户端，以出站 TLS/WSS 长连接接入网关，在设备侧完成安全流量转发 | `MVP 0A` 骨架验证 |
+| 📱 [**天晴（baomao_android）**](https://github.com/baoma-inc/baomao_android) | `Kotlin` `Gradle` `Foreground Service` | 用户授权的 Android 边缘节点客户端，以出站 TLS/WSS 长连接接入网关，在设备侧完成安全流量转发 | `MVP 1` 真实后端对接 |
 | 🛰️ [**idlephone**](https://github.com/baoma-inc/idlephone) | `Go` `PostgreSQL` `Redis` `ClickHouse` `APISIX` | 移动代理控制平面与分布式网关：负责设备接入、就近调度、代理鉴权、反向隧道和流量计量 | `Active` 持续迭代 |
 | 🌐 [**frontend**](https://github.com/baoma-inc/frontend) | `TypeScript` `Next.js` `React` `PostgreSQL` `Redis` | HomeLink Proxy 官网、客户控制台与运营后台，承载账户、接入凭据、用量、账单和服务流程 | `Active` 产品建设 |
 | 🦀 [**rust**](https://github.com/baoma-inc/rust) | `Rust` `Axum` `Tokio` `ClickHouse` | 独立的 HTTPS 审计日志与容量事件接收服务，为网关提供有界队列写入和可观测数据入口 | `Active` 独立演进 |
@@ -66,7 +66,7 @@
 
 ## 📐 系统全局架构
 
-五个项目围绕移动代理产品协同：**baomao_android** 提供边缘出口，**idlephone** 负责控制平面与流量网关，**frontend** 承载 HomeLink Proxy 产品入口，**rust** 接收审计与容量事件，**expense-flow** 支撑内部财务和风控运营。
+五个项目围绕移动代理产品协同：**天晴（baomao_android）** 提供 Android 边缘出口，**idlephone** 负责控制平面与流量网关，**frontend** 承载 HomeLink Proxy 产品入口，**rust** 接收审计与容量事件，**expense-flow** 支撑内部财务和风控运营。
 
 ```mermaid
 graph TD
@@ -76,7 +76,7 @@ graph TD
     classDef db fill:#0c2340,stroke:#64748b,stroke-width:2px,color:#fff;
 
     subgraph "产品、终端与流量入口"
-        Android["📱 Android 边缘节点<br>(baomao_android)"]:::client
+        Android["📱 天晴 Android 边缘节点<br>(baomao_android)"]:::client
         Customer["👥 HomeLink Proxy 客户<br>控制台 / 代理请求"]:::client
         Web["🌐 官网与控制台<br>(frontend)"]:::client
     end
@@ -134,10 +134,10 @@ graph TD
 
 <!-- LANGS:START -->
 ```text
-TypeScript  ████████████░░░░░░░░░░░░░░░░  42.0%  3.9 MB
-Kotlin      ██████████░░░░░░░░░░░░░░░░░░  36.5%  3.4 MB
-Go          █████░░░░░░░░░░░░░░░░░░░░░░░  19.3%  1.8 MB
-Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.9%  86.2 KB
+TypeScript  ████████████░░░░░░░░░░░░░░░░  41.9%  3.9 MB
+Kotlin      ██████████░░░░░░░░░░░░░░░░░░  36.4%  3.4 MB
+Go          █████░░░░░░░░░░░░░░░░░░░░░░░  19.4%  1.8 MB
+Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.9%  87.0 KB
 Rust        █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.5%  45.1 KB
 PLpgSQL     █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  22.4 KB
 JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  19.7 KB
@@ -157,9 +157,9 @@ Other       █░░░░░░░░░░░░░░░░░░░░░�
 <!-- LEADERBOARD:START -->
 <table>
   <tr align="center"><th>排名</th><th>贡献者</th><th>Commits</th><th>火力值</th><th>占比</th></tr>
-  <tr align="center"><td><b>🥇</b></td><td><a href="https://github.com/backspace135"><img src="https://github.com/backspace135.png" width="42" alt="backspace135"><br><b>backspace135</b></a></td><td><b>275</b></td><td><code>██████████████</code></td><td>63.1%</td></tr>
-  <tr align="center"><td><b>🥈</b></td><td><a href="https://github.com/Birditch"><img src="https://github.com/Birditch.png" width="42" alt="Birditch"><br><b>Birditch</b></a></td><td><b>119</b></td><td><code>██████░░░░░░░░</code></td><td>27.3%</td></tr>
-  <tr align="center"><td><b>🥉</b></td><td><a href="https://github.com/Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="42" alt="Night-stars-1"><br><b>Night-stars-1</b></a></td><td><b>26</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>6.0%</td></tr>
+  <tr align="center"><td><b>🥇</b></td><td><a href="https://github.com/backspace135"><img src="https://github.com/backspace135.png" width="42" alt="backspace135"><br><b>backspace135</b></a></td><td><b>275</b></td><td><code>██████████████</code></td><td>62.9%</td></tr>
+  <tr align="center"><td><b>🥈</b></td><td><a href="https://github.com/Birditch"><img src="https://github.com/Birditch.png" width="42" alt="Birditch"><br><b>Birditch</b></a></td><td><b>119</b></td><td><code>██████░░░░░░░░</code></td><td>27.2%</td></tr>
+  <tr align="center"><td><b>🥉</b></td><td><a href="https://github.com/Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="42" alt="Night-stars-1"><br><b>Night-stars-1</b></a></td><td><b>27</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>6.2%</td></tr>
   <tr align="center"><td><b>#4</b></td><td><a href="https://github.com/yuda-bai"><img src="https://github.com/yuda-bai.png" width="42" alt="yuda-bai"><br><b>yuda-bai</b></a></td><td><b>10</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>2.3%</td></tr>
   <tr align="center"><td><b>#5</b></td><td><a href="https://github.com/yun12370"><img src="https://github.com/yun12370.png" width="42" alt="yun12370"><br><b>yun12370</b></a></td><td><b>5</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>1.1%</td></tr>
   <tr align="center"><td><b>#6</b></td><td><a href="https://github.com/yuhang-jieke"><img src="https://github.com/yuhang-jieke.png" width="42" alt="yuhang-jieke"><br><b>yuhang-jieke</b></a></td><td><b>1</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>0.2%</td></tr>
