@@ -134,15 +134,15 @@ graph TD
 
 <!-- LANGS:START -->
 ```text
-TypeScript  ████████████░░░░░░░░░░░░░░░░  43.7%  4.3 MB
-Kotlin      ██████████░░░░░░░░░░░░░░░░░░  34.7%  3.4 MB
-Go          █████░░░░░░░░░░░░░░░░░░░░░░░  19.4%  1.9 MB
-Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.9%  87.0 KB
+TypeScript  █████████████░░░░░░░░░░░░░░░  45.6%  4.6 MB
+Kotlin      █████████░░░░░░░░░░░░░░░░░░░  33.6%  3.4 MB
+Go          █████░░░░░░░░░░░░░░░░░░░░░░░  18.7%  1.9 MB
+Shell       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.8%  87.0 KB
 Rust        █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.4%  45.1 KB
 PLpgSQL     █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  22.4 KB
 JavaScript  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%  22.4 KB
-Dockerfile  █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.1%  10.4 KB
-Other       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.3%  27.6 KB
+CSS         █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.1%  13.8 KB
+Other       █░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.3%  30.2 KB
 ```
 <!-- LANGS:END -->
 
@@ -157,10 +157,10 @@ Other       █░░░░░░░░░░░░░░░░░░░░░�
 <!-- LEADERBOARD:START -->
 <table>
   <tr align="center"><th>排名</th><th>贡献者</th><th>Commits</th><th>火力值</th><th>占比</th></tr>
-  <tr align="center"><td><b>🥇</b></td><td><a href="https://github.com/backspace135"><img src="https://github.com/backspace135.png" width="42" alt="backspace135"><br><b>backspace135</b></a></td><td><b>301</b></td><td><code>██████████████</code></td><td>62.3%</td></tr>
-  <tr align="center"><td><b>🥈</b></td><td><a href="https://github.com/Birditch"><img src="https://github.com/Birditch.png" width="42" alt="Birditch"><br><b>Birditch</b></a></td><td><b>135</b></td><td><code>██████░░░░░░░░</code></td><td>28.0%</td></tr>
-  <tr align="center"><td><b>🥉</b></td><td><a href="https://github.com/Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="42" alt="Night-stars-1"><br><b>Night-stars-1</b></a></td><td><b>31</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>6.4%</td></tr>
-  <tr align="center"><td><b>#4</b></td><td><a href="https://github.com/yuda-bai"><img src="https://github.com/yuda-bai.png" width="42" alt="yuda-bai"><br><b>yuda-bai</b></a></td><td><b>10</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>2.1%</td></tr>
+  <tr align="center"><td><b>🥇</b></td><td><a href="https://github.com/backspace135"><img src="https://github.com/backspace135.png" width="42" alt="backspace135"><br><b>backspace135</b></a></td><td><b>315</b></td><td><code>██████████████</code></td><td>63.4%</td></tr>
+  <tr align="center"><td><b>🥈</b></td><td><a href="https://github.com/Birditch"><img src="https://github.com/Birditch.png" width="42" alt="Birditch"><br><b>Birditch</b></a></td><td><b>135</b></td><td><code>██████░░░░░░░░</code></td><td>27.2%</td></tr>
+  <tr align="center"><td><b>🥉</b></td><td><a href="https://github.com/Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="42" alt="Night-stars-1"><br><b>Night-stars-1</b></a></td><td><b>31</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>6.2%</td></tr>
+  <tr align="center"><td><b>#4</b></td><td><a href="https://github.com/yuda-bai"><img src="https://github.com/yuda-bai.png" width="42" alt="yuda-bai"><br><b>yuda-bai</b></a></td><td><b>10</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>2.0%</td></tr>
   <tr align="center"><td><b>#5</b></td><td><a href="https://github.com/yun12370"><img src="https://github.com/yun12370.png" width="42" alt="yun12370"><br><b>yun12370</b></a></td><td><b>5</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>1.0%</td></tr>
   <tr align="center"><td><b>#6</b></td><td><a href="https://github.com/yuhang-jieke"><img src="https://github.com/yuhang-jieke.png" width="42" alt="yuhang-jieke"><br><b>yuhang-jieke</b></a></td><td><b>1</b></td><td><code>█░░░░░░░░░░░░░</code></td><td>0.2%</td></tr>
 </table>
