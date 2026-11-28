@@ -13,7 +13,7 @@
 <br>
 
 <!-- STATS:BADGES:START -->
-<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/members.svg" alt="团队成员 6" height="28">
+<img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/members.svg" alt="团队成员 5" height="28">
 <img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/repos.svg" alt="仓库 6" height="28">
 <img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/languages.svg" alt="编程语言 13" height="28">
 <img src="https://raw.githubusercontent.com/baoma-inc/.github/main/profile/assets/badges/followers.svg" alt="关注者 3" height="28">
@@ -181,9 +181,8 @@ Other       █░░░░░░░░░░░░░░░░░░░░░�
   <a href="https://github.com/lvyitian" title="lvyitian"><img src="https://github.com/lvyitian.png" width="72" alt="lvyitian"></a>
   <a href="https://github.com/Night-stars-1" title="Night-stars-1"><img src="https://github.com/Night-stars-1.png" width="72" alt="Night-stars-1"></a>
   <a href="https://github.com/yuda-bai" title="yuda-bai"><img src="https://github.com/yuda-bai.png" width="72" alt="yuda-bai"></a>
-  <a href="https://github.com/yun12370" title="yun12370"><img src="https://github.com/yun12370.png" width="72" alt="yun12370"></a>
 </p>
-<b>6</b> 位工程师 · 一台闲置设备都不放过
+<b>5</b> 位工程师 · 一台闲置设备都不放过
 <!-- MEMBERS:END -->
 
 </div>
